@@ -8,6 +8,8 @@
 
 本项目是一个基于Web的音频播放平台，专门用于展示中小学语文课文的朗读音频资源。它提供了按年级、学期分类的音频资源浏览功能，以及搜索和分页功能，让用户能够方便地找到并播放所需的课文朗读音频。
 
+音频资源来源于[中央人民广播电台中小学语文示范诵读库](https://edu.cnr.cn/eduzt/ywkwsfsd/)，版权归原作者所有。
+
 ## 功能特点
 
 - 🎵 音频播放：支持在线播放课文朗读音频
@@ -36,6 +38,8 @@
 ├── list.json          # 音频资源数据文件
 ├── server.py          # 本地开发服务器脚本
 ├── README.md          # 项目说明文档
+├── README_EN.md       # 项目说明文档（英文版）
+├── DISCLAIMER.md      # 免责声明
 ├── LICENSE            # 许可证文件
 ├── .gitignore         # Git忽略文件配置
 └── opus/              # 音频文件目录
@@ -57,7 +61,8 @@
 
 有两种方式可以在本地运行项目：
 
-#### 方法1一：直接访问Github托管网页（推荐）
+#### 方法一：直接访问Github托管网页（推荐）
+
 1. 访问项目GitHub托管页面：
    ```
    https://ZedeX.github.io/mandarin-reading-resource/
@@ -81,19 +86,19 @@
    http://localhost:8000
    ```
 
-#### 方法二：直接打开HTML文件
+#### 方法三：直接打开HTML文件
 
 1. 克隆项目到本地：
    ```bash
    git clone https://github.com/ZedeX/mandarin-reading-resource.git
-   cd [项目名]
+   cd mandarin-reading-resource
    ```
 
 2. 在浏览器中直接打开[index.html](index.html)文件
 
 3. 在页面上点击"选择文件"按钮，选择[list.json](list.json)文件并点击"加载数据"
 
-> 注意：使用方法二时，由于浏览器安全限制，可能无法正确加载音频文件。如果遇到问题，请使用方法一。
+> 注意：使用方法三时，由于浏览器安全限制，可能无法正确加载音频文件。如果遇到问题，请使用方法一或二。
 
 ## 数据格式
 
@@ -171,6 +176,10 @@ const itemsPerPage = 15; // 修改此数值改变每页显示的资源数量
 
 本项目采用MIT许可证，详情请见[LICENSE](LICENSE)文件。
 
+## 免责声明
+
+本项目仅为方便学习和研究使用。音频资源来源于[中央人民广播电台中小学语文示范诵读库](https://edu.cnr.cn/eduzt/ywkwsfsd/)，版权归原作者所有。详细免责声明请参见[DISCLAIMER.md](DISCLAIMER.md)文件。
+
 ## 贡献
 
 欢迎提交Issue和Pull Request来帮助改进项目。
@@ -187,4 +196,9 @@ ZedeX
 
 ## 致谢
 
+- [中央人民广播电台中小学语文示范诵读库](https://edu.cnr.cn/eduzt/ywkwsfsd/)提供优质的语文课文朗读音频资源
 - 所有提供课文朗读音频的教师和志愿者
+
+## 特别说明
+
+本项目所有代码均由TRAE生成。
