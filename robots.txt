@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zedex.github.io/mandarin-reading-resource/sitemap.xml
