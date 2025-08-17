@@ -20,6 +20,11 @@ The audio resources come from [CNR's Mandarin Reading Resource Library for Prima
 - ⌨️ Keyboard Support: Supports spacebar to control play/pause
 - 📁 Local Loading: Supports loading data directly from the local file system
 - 📊 Playback Status Tracking: Automatically saves playback progress and completion status
+- 🔄 Auto Save Playback Progress: Automatically saves playback progress every 5 seconds
+- 💾 Local Storage of Playback Status: Uses localStorage to save playback status, including playback time, total duration, play count and completion status
+- 🎯 Focus Playback Control: Supports keyboard shortcuts to control the currently focused player
+- 🌐 Multiple Loading Methods: Supports server loading, XMLHttpRequest loading, and FileReader local file reading
+- 🖱️ Multiple Interaction Methods: Supports multiple interaction methods including player container clicks and button focus
 
 ## Tech Stack
 

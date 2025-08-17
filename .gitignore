@@ -130,7 +130,11 @@ Thumbs.db
 
 # Project specific
 *.mp4
+*.xlsx
 __pycache__/
 *.pyc
 .DS_Store
 Thumbs.db
+
+# Data directory for unused files
+data/
