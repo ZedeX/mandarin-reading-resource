@@ -5,8 +5,6 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/ZedeX/mandarin-reading-resource)
 [![GitHub stars](https://img.shields.io/github/stars/ZedeX/mandarin-reading-resource)](https://github.com/ZedeX/mandarin-reading-resource/stargazers)
 
-<!-- 项目Star历史图表 -->
-[![Stargazers over time](https://starchart.cc/ZedeX/mandarin-reading-resource.svg)](https://starchart.cc/ZedeX/mandarin-reading-resource)
 
 一个用于展示和播放中小学语文课文朗读音频的Web应用程序。
 
@@ -206,8 +204,6 @@ const itemsPerPage = 15; // 修改此数值改变每页显示的资源数量
 ## 作者
 
 ZedeX
-
-[![Stargazers over time](https://starchart.cc/ZedeX/mandarin-reading-resource.svg)](https://starchart.cc/ZedeX/mandarin-reading-resource)
 
 ## 致谢
 
