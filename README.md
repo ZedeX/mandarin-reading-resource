@@ -207,10 +207,16 @@ const itemsPerPage = 15; // 修改此数值改变每页显示的资源数量
 
 ZedeX
 
+[![Stargazers over time](https://starchart.cc/ZedeX/mandarin-reading-resource.svg)](https://starchart.cc/ZedeX/mandarin-reading-resource)
+
 ## 致谢
 
 - [中央人民广播电台中小学语文示范诵读库](https://edu.cnr.cn/eduzt/ywkwsfsd/)提供优质的语文课文朗读音频资源
 - 所有提供课文朗读音频的教师和志愿者
+
+## Star历史
+
+[![Stargazers over time](https://starchart.cc/ZedeX/mandarin-reading-resource.svg)](https://starchart.cc/ZedeX/mandarin-reading-resource)
 
 ## 特别说明
 
