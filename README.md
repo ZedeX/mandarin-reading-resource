@@ -1,5 +1,13 @@
 # 中小学语文示范诵读库
 
+![GitHub](https://img.shields.io/github/license/ZedeX/mandarin-reading-resource)
+![GitHub last commit](https://img.shields.io/github/last-commit/ZedeX/mandarin-reading-resource)
+![GitHub repo size](https://img.shields.io/github/repo-size/ZedeX/mandarin-reading-resource)
+[![GitHub stars](https://img.shields.io/github/stars/ZedeX/mandarin-reading-resource)](https://github.com/ZedeX/mandarin-reading-resource/stargazers)
+
+<!-- 项目Star历史图表 -->
+[![Stargazers over time](https://starchart.cc/ZedeX/mandarin-reading-resource.svg)](https://starchart.cc/ZedeX/mandarin-reading-resource)
+
 一个用于展示和播放中小学语文课文朗读音频的Web应用程序。
 
 [English version](README_EN.md)
